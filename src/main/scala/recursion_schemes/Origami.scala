@@ -11,7 +11,6 @@ object Origami {
 
     def product(ints: List[Int]): Int = ints match {
       case Nil => 1
-      case 0 :: _ => 0
       case x :: xs => x * product(xs)
     }
   }

@@ -27,7 +27,6 @@ def sum(ints: List[Int]) = ints match {
 
 def product(ints: List[Int]) = ints match {
   case Nil => 1
-  case 0 :: _ => 0
   case x :: xs => x * product(xs)
 }
 ```
