@@ -4,7 +4,7 @@ Recursion schemes explained with Scala.
 
 ## Origami
 
-If we take a look at the native type `List`, when we have a list of type `List[Int]` we can perform the operations `sum` and `product` on that list with the following results:
+Given a list of type `List[Int]` we can perform the operations `sum` and `product` on that list with the following results:
 
 ```scala
 scala> val twos = List(2, 2, 2, 2)
