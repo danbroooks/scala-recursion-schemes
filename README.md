@@ -50,6 +50,8 @@ def product(ints: List[Int]) =
   fold(1, ints)(_ * _)
 ```
 
+## Unfold
+
 The inverse of a `fold` is an `unfold`. An unfold allows us to take some value and build up to a larger data structure. To achieve this we need to use a data structure that supports **lazy evaluation**, such as a `Stream`:
 
 ```scala
