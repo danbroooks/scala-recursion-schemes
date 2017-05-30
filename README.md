@@ -81,7 +81,7 @@ We can then generate structures from values, for example we can implement `ones`
 
 ```scala
 def ones: Stream[Int] =
-  unfold(1)(x => Some(x -> x))
+  unfold(1)(x => Some(x, x))
 ```
 
 ## Catamorphism
